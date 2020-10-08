@@ -1,5 +1,14 @@
 extends layout
+docktype html
+html
+head
+  title = twitter test page
 
-block content
-  h1= title
-  p Welcome to #{title}
+body
+
+  block content
+    h1= title
+    p Welcome to #{title}
+    p This is my fisrt time and its hurt!
+    textarea 
+    button(onclick='test()') click me 
