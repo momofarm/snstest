@@ -1,14 +1,10 @@
-extends layout
-docktype html
-html
+
 head
-  title = twitter test page
+  title My Site
+  script(src='/javascripts/jquery.js')
+  script(src='/javascripts/app.js')
 
 body
-
-  block content
-    h1= title
-    p Welcome to #{title}
-    p This is my fisrt time and its hurt!
-    textarea 
-    button(onclick='test()') click me 
+  p Hello I'm test clone
+  textarea 
+  button(action='click()') click me 
